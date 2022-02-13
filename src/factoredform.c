@@ -4,7 +4,7 @@
 
 double getFactoredForm(int argc, char **argv) {
     if(argc<6) {
-        fprintf(stderr, "Error: you didn't pass an a, b, and c value.\n");
+        fprintf(stderr, "Error: you forgot an a, b, and c value.\n");
     } else if(argc==6) {
         double a=strtod(argv[3], NULL);
         double b=strtod(argv[4], NULL);

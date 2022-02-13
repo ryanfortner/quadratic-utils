@@ -4,7 +4,7 @@
 
 double getRoots(int argc, char **argv) {        
     if(argc < 5) {
-        fprintf(stderr, "Error: you for an a, b, and c value!\n");
+        fprintf(stderr, "Error: you forgot an a, b, and c value!\n");
     } else if (argc == 5) {
         double a=strtod(argv[2], NULL);
         double b=strtod(argv[3], NULL);
