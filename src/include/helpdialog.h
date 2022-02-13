@@ -1,0 +1,1 @@
+void printHelpDialog(char *argv0);
